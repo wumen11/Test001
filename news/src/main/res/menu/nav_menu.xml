@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_call"
+            android:icon="@drawable/icon"
+            android:title="编辑资料"
+            android:checkable="true"/>
+        <item android:id="@+id/nav_friends"
+            android:icon="@drawable/icon"
+            android:title="我的好友"
+            android:checkable="true"/>
+        <item android:id="@+id/nav_location"
+            android:icon="@drawable/icon"
+            android:title="发布新闻"
+            android:checkable="true"/>
+        <item android:id="@+id/nav_favorite"
+            android:icon="@drawable/icon"
+            android:title="个人收藏"
+            android:checkable="true"/>
+        <item android:id="@+id/nav_settings"
+            android:icon="@drawable/icon"
+            android:title="系统设置"
+            android:checkable="true"/>
+        <item android:id="@+id/nav_exit"
+            android:icon="@drawable/icon"
+            android:title="切换账号"
+            android:checkable="true"/>
+
+
+    </group>
+
+</menu>
